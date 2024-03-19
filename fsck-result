@@ -1,0 +1,2665 @@
+sudo fsck -y /dev/sda1
+fsck from util-linux 2.39.2
+e2fsck 1.47.0 (5-Feb-2023)
+ext2fs_open2: Superblock checksum does not match superblock
+fsck.ext4: Superblock invalid, trying backup blocks...
+Superblock needs_recovery flag is clear, but journal has data.
+Recovery flag not set in backup superblock, so running journal anyway.
+/dev/sda1: recovering journal
+Pass 1: Checking inodes, blocks, and sizes
+Inodes that were part of a corrupted orphan linked list found.  Fix? yes
+
+Inode 262192 was part of the orphaned inode list.  FIXED.
+Inode 262193 was part of the orphaned inode list.  FIXED.
+Inode 262194 was part of the orphaned inode list.  FIXED.
+Deleted inode 262195 has zero dtime.  Fix? yes
+
+Inode 262196 was part of the orphaned inode list.  FIXED.
+Inode 262197 was part of the orphaned inode list.  FIXED.
+Inode 262198 was part of the orphaned inode list.  FIXED.
+Inode 262199 was part of the orphaned inode list.  FIXED.
+Inode 262200 was part of the orphaned inode list.  FIXED.
+Inode 262201 was part of the orphaned inode list.  FIXED.
+Inode 262203 was part of the orphaned inode list.  FIXED.
+Inode 262204 was part of the orphaned inode list.  FIXED.
+Inode 262205 was part of the orphaned inode list.  FIXED.
+Inode 2359903 extent tree (at level 1) could be shorter.  Optimize? yes
+
+Pass 1E: Optimizing extent trees
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+Block bitmap differences:  -(7004160--7005183) -(7236608--7237631) -(7704576--7704889) +(23887872--23888910)
+Fix? yes
+
+Free blocks count wrong for group #0 (23499, counted=1353).
+Fix? yes
+
+Free blocks count wrong for group #1 (31729, counted=4712).
+Fix? yes
+
+Free blocks count wrong for group #2 (32768, counted=1805).
+Fix? yes
+
+Free blocks count wrong for group #3 (31729, counted=4777).
+Fix? yes
+
+Free blocks count wrong for group #4 (32768, counted=10963).
+Fix? yes
+
+Free blocks count wrong for group #5 (31729, counted=13594).
+Fix? yes
+
+Free blocks count wrong for group #6 (32768, counted=7931).
+Fix? yes
+
+Free blocks count wrong for group #7 (31729, counted=5826).
+Fix? yes
+
+Free blocks count wrong for group #8 (32768, counted=3746).
+Fix? yes
+
+Free blocks count wrong for group #9 (31729, counted=2778).
+Fix? yes
+
+Free blocks count wrong for group #10 (32768, counted=10977).
+Fix? yes
+
+Free blocks count wrong for group #11 (32768, counted=7122).
+Fix? yes
+
+Free blocks count wrong for group #12 (32768, counted=49).
+Fix? yes
+
+Free blocks count wrong for group #13 (32768, counted=12385).
+Fix? yes
+
+Free blocks count wrong for group #14 (32768, counted=11179).
+Fix? yes
+
+Free blocks count wrong for group #15 (32768, counted=4875).
+Fix? yes
+
+Free blocks count wrong for group #16 (24544, counted=24543).
+Fix? yes
+
+Free blocks count wrong for group #17 (32768, counted=1589).
+Fix? yes
+
+Free blocks count wrong for group #18 (32768, counted=20117).
+Fix? yes
+
+Free blocks count wrong for group #19 (32768, counted=22298).
+Fix? yes
+
+Free blocks count wrong for group #20 (32768, counted=6118).
+Fix? yes
+
+Free blocks count wrong for group #21 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #22 (32768, counted=1237).
+Fix? yes
+
+Free blocks count wrong for group #23 (32768, counted=1612).
+Fix? yes
+
+Free blocks count wrong for group #24 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #25 (31729, counted=888).
+Fix? yes
+
+Free blocks count wrong for group #26 (32768, counted=1112).
+Fix? yes
+
+Free blocks count wrong for group #27 (31729, counted=4178).
+Fix? yes
+
+Free blocks count wrong for group #28 (32768, counted=1249).
+Fix? yes
+
+Free blocks count wrong for group #29 (32768, counted=4824).
+Fix? yes
+
+Free blocks count wrong for group #30 (32768, counted=23154).
+Fix? yes
+
+Free blocks count wrong for group #31 (32768, counted=11119).
+Fix? yes
+
+Free blocks count wrong for group #32 (24544, counted=16857).
+Fix? yes
+
+Free blocks count wrong for group #33 (32768, counted=4621).
+Fix? yes
+
+Free blocks count wrong for group #34 (32768, counted=4846).
+Fix? yes
+
+Free blocks count wrong for group #35 (32768, counted=2717).
+Fix? yes
+
+Free blocks count wrong for group #36 (32768, counted=12777).
+Fix? yes
+
+Free blocks count wrong for group #37 (32768, counted=15621).
+Fix? yes
+
+Free blocks count wrong for group #38 (32768, counted=21566).
+Fix? yes
+
+Free blocks count wrong for group #39 (32768, counted=13416).
+Fix? yes
+
+Free blocks count wrong for group #40 (32768, counted=5890).
+Fix? yes
+
+Free blocks count wrong for group #41 (32768, counted=4650).
+Fix? yes
+
+Free blocks count wrong for group #42 (32768, counted=884).
+Fix? yes
+
+Free blocks count wrong for group #43 (32768, counted=8592).
+Fix? yes
+
+Free blocks count wrong for group #44 (32768, counted=6245).
+Fix? yes
+
+Free blocks count wrong for group #45 (32768, counted=6946).
+Fix? yes
+
+Free blocks count wrong for group #46 (32768, counted=21651).
+Fix? yes
+
+Free blocks count wrong for group #47 (32768, counted=5674).
+Fix? yes
+
+Free blocks count wrong for group #49 (31729, counted=6047).
+Fix? yes
+
+Free blocks count wrong for group #50 (32768, counted=9633).
+Fix? yes
+
+Free blocks count wrong for group #51 (32768, counted=9494).
+Fix? yes
+
+Free blocks count wrong for group #52 (32768, counted=1725).
+Fix? yes
+
+Free blocks count wrong for group #53 (32768, counted=11995).
+Fix? yes
+
+Free blocks count wrong for group #54 (32768, counted=14778).
+Fix? yes
+
+Free blocks count wrong for group #55 (32768, counted=11706).
+Fix? yes
+
+Free blocks count wrong for group #56 (32768, counted=14698).
+Fix? yes
+
+Free blocks count wrong for group #57 (32768, counted=16475).
+Fix? yes
+
+Free blocks count wrong for group #58 (32768, counted=10282).
+Fix? yes
+
+Free blocks count wrong for group #59 (32768, counted=2745).
+Fix? yes
+
+Free blocks count wrong for group #60 (32768, counted=6255).
+Fix? yes
+
+Free blocks count wrong for group #61 (32768, counted=6552).
+Fix? yes
+
+Free blocks count wrong for group #62 (32768, counted=6582).
+Fix? yes
+
+Free blocks count wrong for group #63 (32768, counted=20520).
+Fix? yes
+
+Free blocks count wrong for group #64 (24544, counted=18).
+Fix? yes
+
+Free blocks count wrong for group #65 (32768, counted=13974).
+Fix? yes
+
+Free blocks count wrong for group #66 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #67 (32768, counted=2054).
+Fix? yes
+
+Free blocks count wrong for group #68 (32768, counted=13155).
+Fix? yes
+
+Free blocks count wrong for group #69 (32768, counted=13942).
+Fix? yes
+
+Free blocks count wrong for group #70 (32768, counted=15027).
+Fix? yes
+
+Free blocks count wrong for group #71 (32768, counted=11724).
+Fix? yes
+
+Free blocks count wrong for group #72 (32768, counted=8621).
+Fix? yes
+
+Free blocks count wrong for group #73 (32768, counted=8675).
+Fix? yes
+
+Free blocks count wrong for group #74 (32768, counted=7496).
+Fix? yes
+
+Free blocks count wrong for group #75 (32768, counted=327).
+Fix? yes
+
+Free blocks count wrong for group #76 (32768, counted=1134).
+Fix? yes
+
+Free blocks count wrong for group #77 (32768, counted=125).
+Fix? yes
+
+Free blocks count wrong for group #78 (32768, counted=89).
+Fix? yes
+
+Free blocks count wrong for group #79 (32768, counted=58).
+Fix? yes
+
+Free blocks count wrong for group #80 (24544, counted=8065).
+Fix? yes
+
+Free blocks count wrong for group #81 (31729, counted=9514).
+Fix? yes
+
+Free blocks count wrong for group #82 (32768, counted=13503).
+Fix? yes
+
+Free blocks count wrong for group #83 (32768, counted=7143).
+Fix? yes
+
+Free blocks count wrong for group #84 (32768, counted=2342).
+Fix? yes
+
+Free blocks count wrong for group #85 (32768, counted=460).
+Fix? yes
+
+Free blocks count wrong for group #86 (32768, counted=3324).
+Fix? yes
+
+Free blocks count wrong for group #87 (32768, counted=7824).
+Fix? yes
+
+Free blocks count wrong for group #88 (32768, counted=8002).
+Fix? yes
+
+Free blocks count wrong for group #89 (32768, counted=9660).
+Fix? yes
+
+Free blocks count wrong for group #90 (32768, counted=7882).
+Fix? yes
+
+Free blocks count wrong for group #91 (32768, counted=1771).
+Fix? yes
+
+Free blocks count wrong for group #92 (32768, counted=7332).
+Fix? yes
+
+Free blocks count wrong for group #93 (32768, counted=12869).
+Fix? yes
+
+Free blocks count wrong for group #94 (32768, counted=8171).
+Fix? yes
+
+Free blocks count wrong for group #95 (32768, counted=1558).
+Fix? yes
+
+Free blocks count wrong for group #96 (24544, counted=4700).
+Fix? yes
+
+Free blocks count wrong for group #97 (32768, counted=6223).
+Fix? yes
+
+Free blocks count wrong for group #98 (32768, counted=19222).
+Fix? yes
+
+Free blocks count wrong for group #99 (32768, counted=21922).
+Fix? yes
+
+Free blocks count wrong for group #100 (32768, counted=21347).
+Fix? yes
+
+Free blocks count wrong for group #101 (32768, counted=11754).
+Fix? yes
+
+Free blocks count wrong for group #102 (32768, counted=15589).
+Fix? yes
+
+Free blocks count wrong for group #103 (32768, counted=4036).
+Fix? yes
+
+Free blocks count wrong for group #104 (32768, counted=5408).
+Fix? yes
+
+Free blocks count wrong for group #105 (32768, counted=1106).
+Fix? yes
+
+Free blocks count wrong for group #106 (32768, counted=65).
+Fix? yes
+
+Free blocks count wrong for group #107 (32768, counted=53).
+Fix? yes
+
+Free blocks count wrong for group #108 (32768, counted=5631).
+Fix? yes
+
+Free blocks count wrong for group #109 (32768, counted=11245).
+Fix? yes
+
+Free blocks count wrong for group #110 (32768, counted=5846).
+Fix? yes
+
+Free blocks count wrong for group #111 (32768, counted=9932).
+Fix? yes
+
+Free blocks count wrong for group #112 (24544, counted=6971).
+Fix? yes
+
+Free blocks count wrong for group #113 (32768, counted=1828).
+Fix? yes
+
+Free blocks count wrong for group #114 (32768, counted=5798).
+Fix? yes
+
+Free blocks count wrong for group #115 (32768, counted=12783).
+Fix? yes
+
+Free blocks count wrong for group #116 (32768, counted=14994).
+Fix? yes
+
+Free blocks count wrong for group #117 (32768, counted=7719).
+Fix? yes
+
+Free blocks count wrong for group #118 (32768, counted=11039).
+Fix? yes
+
+Free blocks count wrong for group #119 (32768, counted=16938).
+Fix? yes
+
+Free blocks count wrong for group #120 (32768, counted=5238).
+Fix? yes
+
+Free blocks count wrong for group #121 (32768, counted=9793).
+Fix? yes
+
+Free blocks count wrong for group #122 (32768, counted=7990).
+Fix? yes
+
+Free blocks count wrong for group #123 (32768, counted=9630).
+Fix? yes
+
+Free blocks count wrong for group #124 (32768, counted=9433).
+Fix? yes
+
+Free blocks count wrong for group #125 (31729, counted=4789).
+Fix? yes
+
+Free blocks count wrong for group #126 (32768, counted=1816).
+Fix? yes
+
+Free blocks count wrong for group #127 (32768, counted=8364).
+Fix? yes
+
+Free blocks count wrong for group #128 (24544, counted=6385).
+Fix? yes
+
+Free blocks count wrong for group #129 (32768, counted=19436).
+Fix? yes
+
+Free blocks count wrong for group #130 (32768, counted=1798).
+Fix? yes
+
+Free blocks count wrong for group #131 (32768, counted=7747).
+Fix? yes
+
+Free blocks count wrong for group #132 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #133 (32768, counted=4724).
+Fix? yes
+
+Free blocks count wrong for group #134 (32768, counted=16515).
+Fix? yes
+
+Free blocks count wrong for group #135 (32768, counted=2186).
+Fix? yes
+
+Free blocks count wrong for group #136 (32768, counted=6622).
+Fix? yes
+
+Free blocks count wrong for group #137 (32768, counted=1421).
+Fix? yes
+
+Free blocks count wrong for group #138 (32768, counted=6113).
+Fix? yes
+
+Free blocks count wrong for group #139 (32768, counted=1091).
+Fix? yes
+
+Free blocks count wrong for group #140 (32768, counted=6546).
+Fix? yes
+
+Free blocks count wrong for group #141 (32768, counted=26433).
+Fix? yes
+
+Free blocks count wrong for group #142 (32768, counted=17294).
+Fix? yes
+
+Free blocks count wrong for group #143 (32768, counted=14219).
+Fix? yes
+
+Free blocks count wrong for group #144 (24544, counted=6745).
+Fix? yes
+
+Free blocks count wrong for group #145 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #146 (32768, counted=5280).
+Fix? yes
+
+Free blocks count wrong for group #147 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #148 (32768, counted=1924).
+Fix? yes
+
+Free blocks count wrong for group #149 (32768, counted=1515).
+Fix? yes
+
+Free blocks count wrong for group #150 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #151 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #152 (32768, counted=1484).
+Fix? yes
+
+Free blocks count wrong for group #153 (32768, counted=595).
+Fix? yes
+
+Free blocks count wrong for group #154 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #155 (32768, counted=1633).
+Fix? yes
+
+Free blocks count wrong for group #156 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #157 (32768, counted=5465).
+Fix? yes
+
+Free blocks count wrong for group #158 (32768, counted=16732).
+Fix? yes
+
+Free blocks count wrong for group #159 (32768, counted=11030).
+Fix? yes
+
+Free blocks count wrong for group #161 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #162 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #163 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #164 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #165 (32768, counted=8360).
+Fix? yes
+
+Free blocks count wrong for group #166 (32768, counted=4221).
+Fix? yes
+
+Free blocks count wrong for group #167 (32768, counted=2075).
+Fix? yes
+
+Free blocks count wrong for group #168 (32768, counted=1672).
+Fix? yes
+
+Free blocks count wrong for group #169 (32768, counted=6839).
+Fix? yes
+
+Free blocks count wrong for group #170 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #171 (32768, counted=14866).
+Fix? yes
+
+Free blocks count wrong for group #172 (32768, counted=15100).
+Fix? yes
+
+Free blocks count wrong for group #173 (32768, counted=3919).
+Fix? yes
+
+Free blocks count wrong for group #174 (32768, counted=1834).
+Fix? yes
+
+Free blocks count wrong for group #175 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #177 (32768, counted=5452).
+Fix? yes
+
+Free blocks count wrong for group #178 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #179 (32768, counted=1256).
+Fix? yes
+
+Free blocks count wrong for group #180 (32768, counted=5626).
+Fix? yes
+
+Free blocks count wrong for group #181 (32768, counted=5745).
+Fix? yes
+
+Free blocks count wrong for group #182 (32768, counted=9292).
+Fix? yes
+
+Free blocks count wrong for group #183 (32768, counted=7048).
+Fix? yes
+
+Free blocks count wrong for group #184 (32768, counted=9541).
+Fix? yes
+
+Free blocks count wrong for group #185 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #186 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #187 (32768, counted=7253).
+Fix? yes
+
+Free blocks count wrong for group #188 (32768, counted=1766).
+Fix? yes
+
+Free blocks count wrong for group #189 (32768, counted=2872).
+Fix? yes
+
+Free blocks count wrong for group #190 (32768, counted=56).
+Fix? yes
+
+Free blocks count wrong for group #191 (32768, counted=11118).
+Fix? yes
+
+Free blocks count wrong for group #192 (24544, counted=9532).
+Fix? yes
+
+Free blocks count wrong for group #193 (32768, counted=10846).
+Fix? yes
+
+Free blocks count wrong for group #194 (32768, counted=8203).
+Fix? yes
+
+Free blocks count wrong for group #195 (32768, counted=13751).
+Fix? yes
+
+Free blocks count wrong for group #196 (32768, counted=23466).
+Fix? yes
+
+Free blocks count wrong for group #197 (32768, counted=13079).
+Fix? yes
+
+Free blocks count wrong for group #198 (32768, counted=9858).
+Fix? yes
+
+Free blocks count wrong for group #199 (32768, counted=8967).
+Fix? yes
+
+Free blocks count wrong for group #200 (32768, counted=5192).
+Fix? yes
+
+Free blocks count wrong for group #201 (32768, counted=12046).
+Fix? yes
+
+Free blocks count wrong for group #202 (32768, counted=11788).
+Fix? yes
+
+Free blocks count wrong for group #203 (32768, counted=8167).
+Fix? yes
+
+Free blocks count wrong for group #204 (32768, counted=8742).
+Fix? yes
+
+Free blocks count wrong for group #205 (32768, counted=5519).
+Fix? yes
+
+Free blocks count wrong for group #206 (32768, counted=7905).
+Fix? yes
+
+Free blocks count wrong for group #207 (32768, counted=250).
+Fix? yes
+
+Free blocks count wrong for group #208 (24544, counted=24528).
+Fix? yes
+
+Free blocks count wrong for group #209 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #210 (32768, counted=2124).
+Fix? yes
+
+Free blocks count wrong for group #211 (32768, counted=9116).
+Fix? yes
+
+Free blocks count wrong for group #212 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #213 (32768, counted=2274).
+Fix? yes
+
+Free blocks count wrong for group #214 (32768, counted=14750).
+Fix? yes
+
+Free blocks count wrong for group #215 (32768, counted=19636).
+Fix? yes
+
+Free blocks count wrong for group #216 (32768, counted=5399).
+Fix? yes
+
+Free blocks count wrong for group #217 (32768, counted=165).
+Fix? yes
+
+Free blocks count wrong for group #218 (32768, counted=3725).
+Fix? yes
+
+Free blocks count wrong for group #219 (32768, counted=3596).
+Fix? yes
+
+Free blocks count wrong for group #220 (32768, counted=14781).
+Fix? yes
+
+Free blocks count wrong for group #221 (32768, counted=21342).
+Fix? yes
+
+Free blocks count wrong for group #222 (32768, counted=3803).
+Fix? yes
+
+Free blocks count wrong for group #223 (32768, counted=4763).
+Fix? yes
+
+Free blocks count wrong for group #225 (32768, counted=8067).
+Fix? yes
+
+Free blocks count wrong for group #226 (32768, counted=15634).
+Fix? yes
+
+Free blocks count wrong for group #227 (32768, counted=9634).
+Fix? yes
+
+Free blocks count wrong for group #228 (32768, counted=9738).
+Fix? yes
+
+Free blocks count wrong for group #229 (32768, counted=3810).
+Fix? yes
+
+Free blocks count wrong for group #230 (32768, counted=11861).
+Fix? yes
+
+Free blocks count wrong for group #231 (32768, counted=7931).
+Fix? yes
+
+Free blocks count wrong for group #232 (32768, counted=17505).
+Fix? yes
+
+Free blocks count wrong for group #233 (32768, counted=3968).
+Fix? yes
+
+Free blocks count wrong for group #234 (32768, counted=7388).
+Fix? yes
+
+Free blocks count wrong for group #235 (32768, counted=11106).
+Fix? yes
+
+Free blocks count wrong for group #236 (32768, counted=7150).
+Fix? yes
+
+Free blocks count wrong for group #237 (32768, counted=13770).
+Fix? yes
+
+Free blocks count wrong for group #238 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #239 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #241 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #242 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #243 (31729, counted=674).
+Fix? yes
+
+Free blocks count wrong for group #244 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #245 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #246 (32768, counted=2245).
+Fix? yes
+
+Free blocks count wrong for group #247 (32768, counted=1285).
+Fix? yes
+
+Free blocks count wrong for group #248 (32768, counted=7042).
+Fix? yes
+
+Free blocks count wrong for group #249 (32768, counted=6541).
+Fix? yes
+
+Free blocks count wrong for group #250 (32768, counted=19364).
+Fix? yes
+
+Free blocks count wrong for group #251 (32768, counted=21057).
+Fix? yes
+
+Free blocks count wrong for group #252 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #253 (32768, counted=24083).
+Fix? yes
+
+Free blocks count wrong for group #254 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #255 (32768, counted=1380).
+Fix? yes
+
+Free blocks count wrong for group #257 (32768, counted=2558).
+Fix? yes
+
+Free blocks count wrong for group #258 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #259 (32768, counted=16650).
+Fix? yes
+
+Free blocks count wrong for group #260 (32768, counted=16430).
+Fix? yes
+
+Free blocks count wrong for group #261 (32768, counted=8650).
+Fix? yes
+
+Free blocks count wrong for group #262 (32768, counted=608).
+Fix? yes
+
+Free blocks count wrong for group #263 (32768, counted=266).
+Fix? yes
+
+Free blocks count wrong for group #264 (32768, counted=2368).
+Fix? yes
+
+Free blocks count wrong for group #265 (32768, counted=1534).
+Fix? yes
+
+Free blocks count wrong for group #266 (32768, counted=754).
+Fix? yes
+
+Free blocks count wrong for group #267 (32768, counted=383).
+Fix? yes
+
+Free blocks count wrong for group #268 (32768, counted=1732).
+Fix? yes
+
+Free blocks count wrong for group #269 (32768, counted=1353).
+Fix? yes
+
+Free blocks count wrong for group #270 (32768, counted=12056).
+Fix? yes
+
+Free blocks count wrong for group #271 (32768, counted=26865).
+Fix? yes
+
+Free blocks count wrong for group #272 (24544, counted=16199).
+Fix? yes
+
+Free blocks count wrong for group #273 (32768, counted=11000).
+Fix? yes
+
+Free blocks count wrong for group #274 (32768, counted=8448).
+Fix? yes
+
+Free blocks count wrong for group #275 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #276 (32768, counted=1552).
+Fix? yes
+
+Free blocks count wrong for group #277 (32768, counted=2124).
+Fix? yes
+
+Free blocks count wrong for group #278 (32768, counted=4804).
+Fix? yes
+
+Free blocks count wrong for group #279 (32768, counted=13677).
+Fix? yes
+
+Free blocks count wrong for group #280 (32768, counted=4583).
+Fix? yes
+
+Free blocks count wrong for group #281 (32768, counted=5949).
+Fix? yes
+
+Free blocks count wrong for group #282 (32768, counted=3269).
+Fix? yes
+
+Free blocks count wrong for group #283 (32768, counted=5882).
+Fix? yes
+
+Free blocks count wrong for group #284 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #285 (32768, counted=3623).
+Fix? yes
+
+Free blocks count wrong for group #286 (32768, counted=12445).
+Fix? yes
+
+Free blocks count wrong for group #287 (32768, counted=16642).
+Fix? yes
+
+Free blocks count wrong for group #288 (24544, counted=9300).
+Fix? yes
+
+Free blocks count wrong for group #289 (32769, counted=10092).
+Fix? yes
+
+Free blocks count wrong for group #290 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #291 (32768, counted=1154).
+Fix? yes
+
+Free blocks count wrong for group #292 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #293 (32768, counted=1329).
+Fix? yes
+
+Free blocks count wrong for group #294 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #295 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #296 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #297 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #298 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #299 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #300 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #301 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #302 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #303 (32768, counted=4494).
+Fix? yes
+
+Free blocks count wrong for group #304 (24544, counted=17092).
+Fix? yes
+
+Free blocks count wrong for group #305 (32768, counted=5367).
+Fix? yes
+
+Free blocks count wrong for group #306 (32768, counted=1183).
+Fix? yes
+
+Free blocks count wrong for group #307 (32768, counted=2126).
+Fix? yes
+
+Free blocks count wrong for group #308 (32768, counted=951).
+Fix? yes
+
+Free blocks count wrong for group #309 (32768, counted=2258).
+Fix? yes
+
+Free blocks count wrong for group #310 (32768, counted=6264).
+Fix? yes
+
+Free blocks count wrong for group #311 (32768, counted=3836).
+Fix? yes
+
+Free blocks count wrong for group #312 (32768, counted=1697).
+Fix? yes
+
+Free blocks count wrong for group #313 (32768, counted=10364).
+Fix? yes
+
+Free blocks count wrong for group #314 (32768, counted=8378).
+Fix? yes
+
+Free blocks count wrong for group #315 (32768, counted=2819).
+Fix? yes
+
+Free blocks count wrong for group #316 (32768, counted=10355).
+Fix? yes
+
+Free blocks count wrong for group #317 (32768, counted=10406).
+Fix? yes
+
+Free blocks count wrong for group #318 (32768, counted=720).
+Fix? yes
+
+Free blocks count wrong for group #319 (32768, counted=12682).
+Fix? yes
+
+Free blocks count wrong for group #320 (24544, counted=13664).
+Fix? yes
+
+Free blocks count wrong for group #321 (32768, counted=12).
+Fix? yes
+
+Free blocks count wrong for group #322 (32768, counted=1473).
+Fix? yes
+
+Free blocks count wrong for group #323 (32768, counted=4971).
+Fix? yes
+
+Free blocks count wrong for group #324 (32768, counted=8328).
+Fix? yes
+
+Free blocks count wrong for group #325 (32768, counted=5787).
+Fix? yes
+
+Free blocks count wrong for group #326 (32768, counted=5855).
+Fix? yes
+
+Free blocks count wrong for group #327 (32768, counted=14478).
+Fix? yes
+
+Free blocks count wrong for group #328 (32768, counted=3623).
+Fix? yes
+
+Free blocks count wrong for group #329 (32768, counted=3989).
+Fix? yes
+
+Free blocks count wrong for group #330 (32768, counted=5420).
+Fix? yes
+
+Free blocks count wrong for group #331 (32768, counted=2791).
+Fix? yes
+
+Free blocks count wrong for group #332 (32768, counted=12810).
+Fix? yes
+
+Free blocks count wrong for group #333 (32768, counted=2478).
+Fix? yes
+
+Free blocks count wrong for group #334 (32768, counted=7423).
+Fix? yes
+
+Free blocks count wrong for group #335 (32768, counted=5697).
+Fix? yes
+
+Free blocks count wrong for group #336 (24544, counted=6330).
+Fix? yes
+
+Free blocks count wrong for group #337 (32768, counted=6250).
+Fix? yes
+
+Free blocks count wrong for group #338 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #339 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #340 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #341 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #342 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #343 (31729, counted=729).
+Fix? yes
+
+Free blocks count wrong for group #344 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #345 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #346 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #347 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #348 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #349 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #350 (32768, counted=3996).
+Fix? yes
+
+Free blocks count wrong for group #351 (32768, counted=8143).
+Fix? yes
+
+Free blocks count wrong for group #352 (24544, counted=20485).
+Fix? yes
+
+Free blocks count wrong for group #353 (32768, counted=5236).
+Fix? yes
+
+Free blocks count wrong for group #354 (32768, counted=6076).
+Fix? yes
+
+Free blocks count wrong for group #355 (32768, counted=5361).
+Fix? yes
+
+Free blocks count wrong for group #356 (32768, counted=4840).
+Fix? yes
+
+Free blocks count wrong for group #357 (32768, counted=10790).
+Fix? yes
+
+Free blocks count wrong for group #358 (32768, counted=14483).
+Fix? yes
+
+Free blocks count wrong for group #359 (32768, counted=8069).
+Fix? yes
+
+Free blocks count wrong for group #360 (32768, counted=12680).
+Fix? yes
+
+Free blocks count wrong for group #361 (32768, counted=20087).
+Fix? yes
+
+Free blocks count wrong for group #362 (32768, counted=4595).
+Fix? yes
+
+Free blocks count wrong for group #363 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #364 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #365 (32768, counted=1361).
+Fix? yes
+
+Free blocks count wrong for group #366 (32768, counted=2820).
+Fix? yes
+
+Free blocks count wrong for group #367 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #369 (32768, counted=4189).
+Fix? yes
+
+Free blocks count wrong for group #370 (32768, counted=4503).
+Fix? yes
+
+Free blocks count wrong for group #371 (32768, counted=7178).
+Fix? yes
+
+Free blocks count wrong for group #372 (32768, counted=6023).
+Fix? yes
+
+Free blocks count wrong for group #373 (32768, counted=3197).
+Fix? yes
+
+Free blocks count wrong for group #374 (32768, counted=3518).
+Fix? yes
+
+Free blocks count wrong for group #375 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #376 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #377 (32768, counted=247).
+Fix? yes
+
+Free blocks count wrong for group #378 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #379 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #380 (32768, counted=1592).
+Fix? yes
+
+Free blocks count wrong for group #381 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #382 (32768, counted=13641).
+Fix? yes
+
+Free blocks count wrong for group #383 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #384 (24544, counted=9013).
+Fix? yes
+
+Free blocks count wrong for group #385 (32768, counted=9290).
+Fix? yes
+
+Free blocks count wrong for group #386 (32768, counted=14650).
+Fix? yes
+
+Free blocks count wrong for group #387 (32768, counted=12572).
+Fix? yes
+
+Free blocks count wrong for group #388 (32768, counted=3582).
+Fix? yes
+
+Free blocks count wrong for group #389 (32768, counted=11587).
+Fix? yes
+
+Free blocks count wrong for group #390 (32768, counted=1041).
+Fix? yes
+
+Free blocks count wrong for group #391 (32768, counted=864).
+Fix? yes
+
+Free blocks count wrong for group #392 (32768, counted=2485).
+Fix? yes
+
+Free blocks count wrong for group #393 (32768, counted=1802).
+Fix? yes
+
+Free blocks count wrong for group #394 (32768, counted=2099).
+Fix? yes
+
+Free blocks count wrong for group #395 (32768, counted=1476).
+Fix? yes
+
+Free blocks count wrong for group #396 (32768, counted=4875).
+Fix? yes
+
+Free blocks count wrong for group #397 (32768, counted=3448).
+Fix? yes
+
+Free blocks count wrong for group #398 (32768, counted=17468).
+Fix? yes
+
+Free blocks count wrong for group #399 (32768, counted=6532).
+Fix? yes
+
+Free blocks count wrong for group #400 (24544, counted=24541).
+Fix? yes
+
+Free blocks count wrong for group #401 (32768, counted=1562).
+Fix? yes
+
+Free blocks count wrong for group #402 (32768, counted=675).
+Fix? yes
+
+Free blocks count wrong for group #403 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #404 (32768, counted=168).
+Fix? yes
+
+Free blocks count wrong for group #405 (32768, counted=387).
+Fix? yes
+
+Free blocks count wrong for group #406 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #407 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #408 (32768, counted=942).
+Fix? yes
+
+Free blocks count wrong for group #409 (32768, counted=2441).
+Fix? yes
+
+Free blocks count wrong for group #410 (32768, counted=196).
+Fix? yes
+
+Free blocks count wrong for group #411 (32768, counted=438).
+Fix? yes
+
+Free blocks count wrong for group #412 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #413 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #414 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #415 (32768, counted=1622).
+Fix? yes
+
+Free blocks count wrong for group #416 (24544, counted=2948).
+Fix? yes
+
+Free blocks count wrong for group #417 (32768, counted=15003).
+Fix? yes
+
+Free blocks count wrong for group #418 (32768, counted=15075).
+Fix? yes
+
+Free blocks count wrong for group #419 (32768, counted=18743).
+Fix? yes
+
+Free blocks count wrong for group #420 (32768, counted=16872).
+Fix? yes
+
+Free blocks count wrong for group #421 (32768, counted=4324).
+Fix? yes
+
+Free blocks count wrong for group #422 (32768, counted=4776).
+Fix? yes
+
+Free blocks count wrong for group #423 (32768, counted=11103).
+Fix? yes
+
+Free blocks count wrong for group #424 (32768, counted=9112).
+Fix? yes
+
+Free blocks count wrong for group #425 (32768, counted=2153).
+Fix? yes
+
+Free blocks count wrong for group #426 (32768, counted=3278).
+Fix? yes
+
+Free blocks count wrong for group #427 (32768, counted=2338).
+Fix? yes
+
+Free blocks count wrong for group #428 (32768, counted=2181).
+Fix? yes
+
+Free blocks count wrong for group #429 (32768, counted=5768).
+Fix? yes
+
+Free blocks count wrong for group #430 (32768, counted=4605).
+Fix? yes
+
+Free blocks count wrong for group #431 (32768, counted=8746).
+Fix? yes
+
+Free blocks count wrong for group #432 (24544, counted=7063).
+Fix? yes
+
+Free blocks count wrong for group #437 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #438 (32768, counted=1710).
+Fix? yes
+
+Free blocks count wrong for group #439 (32768, counted=1647).
+Fix? yes
+
+Free blocks count wrong for group #440 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #441 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #442 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #443 (32768, counted=2043).
+Fix? yes
+
+Free blocks count wrong for group #444 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #445 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #446 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #447 (32768, counted=11089).
+Fix? yes
+
+Free blocks count wrong for group #449 (32768, counted=3527).
+Fix? yes
+
+Free blocks count wrong for group #450 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #451 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #452 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #453 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #454 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #455 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #456 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #457 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #458 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #459 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #460 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #461 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #462 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #463 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #464 (24544, counted=3585).
+Fix? yes
+
+Free blocks count wrong for group #465 (32768, counted=3951).
+Fix? yes
+
+Free blocks count wrong for group #466 (32768, counted=3238).
+Fix? yes
+
+Free blocks count wrong for group #467 (32768, counted=2982).
+Fix? yes
+
+Free blocks count wrong for group #468 (32768, counted=3591).
+Fix? yes
+
+Free blocks count wrong for group #469 (32768, counted=1759).
+Fix? yes
+
+Free blocks count wrong for group #470 (32768, counted=1986).
+Fix? yes
+
+Free blocks count wrong for group #471 (32768, counted=6135).
+Fix? yes
+
+Free blocks count wrong for group #472 (32768, counted=982).
+Fix? yes
+
+Free blocks count wrong for group #473 (32768, counted=3065).
+Fix? yes
+
+Free blocks count wrong for group #474 (32768, counted=16085).
+Fix? yes
+
+Free blocks count wrong for group #475 (32768, counted=17958).
+Fix? yes
+
+Free blocks count wrong for group #476 (32768, counted=10651).
+Fix? yes
+
+Free blocks count wrong for group #477 (32768, counted=10929).
+Fix? yes
+
+Free blocks count wrong for group #478 (32768, counted=9917).
+Fix? yes
+
+Free blocks count wrong for group #479 (32768, counted=1521).
+Fix? yes
+
+Free blocks count wrong for group #480 (24544, counted=11706).
+Fix? yes
+
+Free blocks count wrong for group #481 (32768, counted=13215).
+Fix? yes
+
+Free blocks count wrong for group #482 (32768, counted=2807).
+Fix? yes
+
+Free blocks count wrong for group #483 (32768, counted=13896).
+Fix? yes
+
+Free blocks count wrong for group #484 (32768, counted=6497).
+Fix? yes
+
+Free blocks count wrong for group #485 (32768, counted=3455).
+Fix? yes
+
+Free blocks count wrong for group #486 (32768, counted=1208).
+Fix? yes
+
+Free blocks count wrong for group #487 (32768, counted=266).
+Fix? yes
+
+Free blocks count wrong for group #488 (32768, counted=2042).
+Fix? yes
+
+Free blocks count wrong for group #489 (32768, counted=3195).
+Fix? yes
+
+Free blocks count wrong for group #490 (32768, counted=4456).
+Fix? yes
+
+Free blocks count wrong for group #491 (32768, counted=2551).
+Fix? yes
+
+Free blocks count wrong for group #492 (32768, counted=2477).
+Fix? yes
+
+Free blocks count wrong for group #493 (32768, counted=3362).
+Fix? yes
+
+Free blocks count wrong for group #494 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #495 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #496 (24544, counted=8387).
+Fix? yes
+
+Free blocks count wrong for group #497 (32768, counted=2000).
+Fix? yes
+
+Free blocks count wrong for group #498 (32768, counted=1473).
+Fix? yes
+
+Free blocks count wrong for group #499 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #500 (32768, counted=821).
+Fix? yes
+
+Free blocks count wrong for group #501 (32768, counted=1951).
+Fix? yes
+
+Free blocks count wrong for group #502 (32768, counted=2002).
+Fix? yes
+
+Free blocks count wrong for group #503 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #504 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #505 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #506 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #507 (32768, counted=976).
+Fix? yes
+
+Free blocks count wrong for group #508 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #509 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #510 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #511 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #512 (24544, counted=12666).
+Fix? yes
+
+Free blocks count wrong for group #513 (32768, counted=7835).
+Fix? yes
+
+Free blocks count wrong for group #528 (24544, counted=15327).
+Fix? yes
+
+Free blocks count wrong for group #529 (32768, counted=17489).
+Fix? yes
+
+Free blocks count wrong for group #544 (24544, counted=2766).
+Fix? yes
+
+Free blocks count wrong for group #545 (32768, counted=6845).
+Fix? yes
+
+Free blocks count wrong for group #546 (32768, counted=694).
+Fix? yes
+
+Free blocks count wrong for group #548 (32768, counted=15892).
+Fix? yes
+
+Free blocks count wrong for group #549 (32768, counted=28672).
+Fix? yes
+
+Free blocks count wrong for group #554 (32768, counted=15723).
+Fix? yes
+
+Free blocks count wrong for group #555 (32768, counted=31420).
+Fix? yes
+
+Free blocks count wrong for group #556 (32768, counted=28154).
+Fix? yes
+
+Free blocks count wrong for group #557 (32768, counted=11415).
+Fix? yes
+
+Free blocks count wrong for group #558 (32768, counted=18661).
+Fix? yes
+
+Free blocks count wrong for group #559 (32768, counted=29693).
+Fix? yes
+
+Free blocks count wrong for group #560 (24544, counted=18707).
+Fix? yes
+
+Free blocks count wrong for group #561 (32768, counted=8299).
+Fix? yes
+
+Free blocks count wrong for group #562 (32768, counted=2720).
+Fix? yes
+
+Free blocks count wrong for group #565 (32768, counted=4866).
+Fix? yes
+
+Free blocks count wrong for group #566 (32768, counted=1980).
+Fix? yes
+
+Free blocks count wrong for group #567 (32768, counted=16065).
+Fix? yes
+
+Free blocks count wrong for group #568 (32768, counted=3316).
+Fix? yes
+
+Free blocks count wrong for group #569 (32768, counted=1359).
+Fix? yes
+
+Free blocks count wrong for group #570 (32768, counted=3628).
+Fix? yes
+
+Free blocks count wrong for group #571 (32768, counted=728).
+Fix? yes
+
+Free blocks count wrong for group #572 (32768, counted=1336).
+Fix? yes
+
+Free blocks count wrong for group #573 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #574 (32768, counted=3196).
+Fix? yes
+
+Free blocks count wrong for group #575 (32768, counted=866).
+Fix? yes
+
+Free blocks count wrong for group #576 (24544, counted=12794).
+Fix? yes
+
+Free blocks count wrong for group #577 (32768, counted=4794).
+Fix? yes
+
+Free blocks count wrong for group #578 (32768, counted=17005).
+Fix? yes
+
+Free blocks count wrong for group #579 (32768, counted=10416).
+Fix? yes
+
+Free blocks count wrong for group #580 (32768, counted=31232).
+Fix? yes
+
+Free blocks count wrong for group #582 (32768, counted=23920).
+Fix? yes
+
+Free blocks count wrong for group #583 (32768, counted=31232).
+Fix? yes
+
+Free blocks count wrong for group #584 (32768, counted=17104).
+Fix? yes
+
+Free blocks count wrong for group #585 (32768, counted=25599).
+Fix? yes
+
+Free blocks count wrong for group #586 (32768, counted=13242).
+Fix? yes
+
+Free blocks count wrong for group #587 (32768, counted=15378).
+Fix? yes
+
+Free blocks count wrong for group #588 (32768, counted=29501).
+Fix? yes
+
+Free blocks count wrong for group #589 (32768, counted=11811).
+Fix? yes
+
+Free blocks count wrong for group #590 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #591 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #592 (24544, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #593 (32768, counted=15003).
+Fix? yes
+
+Free blocks count wrong for group #594 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #595 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #596 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #597 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #598 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #599 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #600 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #601 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #602 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #603 (32768, counted=27970).
+Fix? yes
+
+Free blocks count wrong for group #604 (32768, counted=8299).
+Fix? yes
+
+Free blocks count wrong for group #605 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #606 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #607 (32768, counted=2512).
+Fix? yes
+
+Free blocks count wrong for group #608 (24544, counted=7451).
+Fix? yes
+
+Free blocks count wrong for group #609 (32768, counted=7448).
+Fix? yes
+
+Free blocks count wrong for group #610 (32768, counted=1471).
+Fix? yes
+
+Free blocks count wrong for group #611 (32768, counted=2942).
+Fix? yes
+
+Free blocks count wrong for group #612 (32768, counted=3257).
+Fix? yes
+
+Free blocks count wrong for group #613 (32768, counted=1054).
+Fix? yes
+
+Free blocks count wrong for group #614 (32768, counted=2688).
+Fix? yes
+
+Free blocks count wrong for group #615 (32768, counted=1).
+Fix? yes
+
+Free blocks count wrong for group #616 (32768, counted=2439).
+Fix? yes
+
+Free blocks count wrong for group #617 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #618 (32768, counted=427).
+Fix? yes
+
+Free blocks count wrong for group #619 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #620 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #621 (32768, counted=7695).
+Fix? yes
+
+Free blocks count wrong for group #622 (32768, counted=1595).
+Fix? yes
+
+Free blocks count wrong for group #623 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #624 (24544, counted=5842).
+Fix? yes
+
+Free blocks count wrong for group #625 (31729, counted=10274).
+Fix? yes
+
+Free blocks count wrong for group #626 (32768, counted=421).
+Fix? yes
+
+Free blocks count wrong for group #627 (32768, counted=418).
+Fix? yes
+
+Free blocks count wrong for group #628 (32768, counted=101).
+Fix? yes
+
+Free blocks count wrong for group #629 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #630 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #631 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #632 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #633 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #634 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #635 (32768, counted=3786).
+Fix? yes
+
+Free blocks count wrong for group #636 (32768, counted=469).
+Fix? yes
+
+Free blocks count wrong for group #637 (32768, counted=1612).
+Fix? yes
+
+Free blocks count wrong for group #638 (32768, counted=1885).
+Fix? yes
+
+Free blocks count wrong for group #639 (32768, counted=2880).
+Fix? yes
+
+Free blocks count wrong for group #640 (24544, counted=2898).
+Fix? yes
+
+Free blocks count wrong for group #641 (32768, counted=8102).
+Fix? yes
+
+Free blocks count wrong for group #642 (32768, counted=28608).
+Fix? yes
+
+Free blocks count wrong for group #643 (32768, counted=32102).
+Fix? yes
+
+Free blocks count wrong for group #644 (32768, counted=5834).
+Fix? yes
+
+Free blocks count wrong for group #645 (32768, counted=17124).
+Fix? yes
+
+Free blocks count wrong for group #646 (32768, counted=337).
+Fix? yes
+
+Free blocks count wrong for group #647 (32768, counted=172).
+Fix? yes
+
+Free blocks count wrong for group #648 (32768, counted=160).
+Fix? yes
+
+Free blocks count wrong for group #649 (32768, counted=2375).
+Fix? yes
+
+Free blocks count wrong for group #650 (32768, counted=44).
+Fix? yes
+
+Free blocks count wrong for group #651 (32768, counted=390).
+Fix? yes
+
+Free blocks count wrong for group #652 (32768, counted=9245).
+Fix? yes
+
+Free blocks count wrong for group #653 (32768, counted=8054).
+Fix? yes
+
+Free blocks count wrong for group #654 (32768, counted=1059).
+Fix? yes
+
+Free blocks count wrong for group #655 (32768, counted=1694).
+Fix? yes
+
+Free blocks count wrong for group #656 (24544, counted=9875).
+Fix? yes
+
+Free blocks count wrong for group #657 (32768, counted=2059).
+Fix? yes
+
+Free blocks count wrong for group #672 (24544, counted=16487).
+Fix? yes
+
+Free blocks count wrong for group #673 (32768, counted=2642).
+Fix? yes
+
+Free blocks count wrong for group #674 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #675 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #676 (32768, counted=1452).
+Fix? yes
+
+Free blocks count wrong for group #677 (32768, counted=326).
+Fix? yes
+
+Free blocks count wrong for group #678 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #679 (32768, counted=908).
+Fix? yes
+
+Free blocks count wrong for group #680 (32768, counted=923).
+Fix? yes
+
+Free blocks count wrong for group #681 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #682 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #683 (32768, counted=1612).
+Fix? yes
+
+Free blocks count wrong for group #684 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #685 (32768, counted=986).
+Fix? yes
+
+Free blocks count wrong for group #686 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #687 (32768, counted=0).
+Fix? yes
+
+Free blocks count wrong for group #688 (24544, counted=24496).
+Fix? yes
+
+Free blocks count wrong for group #689 (32768, counted=21862).
+Fix? yes
+
+Free blocks count wrong for group #694 (32768, counted=4413).
+Fix? yes
+
+Free blocks count wrong for group #695 (32768, counted=31097).
+Fix? yes
+
+Free blocks count wrong for group #698 (32768, counted=6620).
+Fix? yes
+
+Free blocks count wrong for group #699 (32768, counted=7865).
+Fix? yes
+
+Free blocks count wrong for group #700 (32768, counted=27153).
+Fix? yes
+
+Free blocks count wrong for group #701 (32768, counted=32326).
+Fix? yes
+
+Free blocks count wrong for group #702 (32768, counted=32256).
+Fix? yes
+
+Free blocks count wrong for group #703 (32768, counted=29062).
+Fix? yes
+
+Free blocks count wrong for group #704 (24544, counted=23710).
+Fix? yes
+
+Free blocks count wrong for group #705 (32768, counted=21978).
+Fix? yes
+
+Free blocks count wrong for group #768 (24544, counted=24489).
+Fix? yes
+
+Free blocks count wrong for group #769 (32768, counted=1679).
+Fix? yes
+
+Free blocks count wrong for group #784 (24544, counted=24543).
+Fix? yes
+
+Free blocks count wrong for group #800 (24544, counted=24543).
+Fix? yes
+
+Free blocks count wrong for group #816 (24544, counted=24543).
+Fix? yes
+
+Free blocks count wrong for group #894 (10240, counted=4135).
+Fix? yes
+
+Free blocks count wrong (28698140, counted=12084743).
+Fix? yes
+
+Inode bitmap differences:  -(262192--262201) -(262203--262205)
+Fix? yes
+
+Free inodes count wrong for group #0 (8181, counted=8172).
+Fix? yes
+
+Free inodes count wrong for group #16 (8192, counted=8191).
+Fix? yes
+
+Directories count wrong for group #16 (0, counted=1).
+Fix? yes
+
+Free inodes count wrong for group #32 (8192, counted=8144).
+Fix? yes
+
+Directories count wrong for group #32 (0, counted=22).
+Fix? yes
+
+Free inodes count wrong for group #64 (8192, counted=8170).
+Fix? yes
+
+Directories count wrong for group #64 (0, counted=4).
+Fix? yes
+
+Free inodes count wrong for group #128 (8192, counted=7854).
+Fix? yes
+
+Directories count wrong for group #128 (0, counted=5).
+Fix? yes
+
+Free inodes count wrong for group #144 (8192, counted=8182).
+Fix? yes
+
+Directories count wrong for group #144 (0, counted=4).
+Fix? yes
+
+Free inodes count wrong for group #192 (8192, counted=4539).
+Fix? yes
+
+Directories count wrong for group #192 (0, counted=460).
+Fix? yes
+
+Free inodes count wrong for group #208 (8192, counted=8147).
+Fix? yes
+
+Directories count wrong for group #208 (0, counted=16).
+Fix? yes
+
+Free inodes count wrong for group #272 (8192, counted=8187).
+Fix? yes
+
+Directories count wrong for group #272 (0, counted=4).
+Fix? yes
+
+Free inodes count wrong for group #288 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #288 (0, counted=831).
+Fix? yes
+
+Free inodes count wrong for group #289 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #289 (0, counted=747).
+Fix? yes
+
+Free inodes count wrong for group #290 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #290 (0, counted=443).
+Fix? yes
+
+Free inodes count wrong for group #291 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #291 (0, counted=250).
+Fix? yes
+
+Free inodes count wrong for group #292 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #292 (0, counted=132).
+Fix? yes
+
+Free inodes count wrong for group #293 (8192, counted=47).
+Fix? yes
+
+Directories count wrong for group #293 (0, counted=33).
+Fix? yes
+
+Free inodes count wrong for group #294 (8192, counted=0).
+Fix? yes
+
+Free inodes count wrong for group #295 (8192, counted=2205).
+Fix? yes
+
+Free inodes count wrong for group #296 (8192, counted=8099).
+Fix? yes
+
+Free inodes count wrong for group #304 (8192, counted=12).
+Fix? yes
+
+Directories count wrong for group #304 (0, counted=663).
+Fix? yes
+
+Free inodes count wrong for group #305 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #305 (0, counted=1).
+Fix? yes
+
+Free inodes count wrong for group #306 (8192, counted=8).
+Fix? yes
+
+Directories count wrong for group #306 (0, counted=764).
+Fix? yes
+
+Free inodes count wrong for group #307 (8192, counted=5011).
+Fix? yes
+
+Directories count wrong for group #307 (0, counted=519).
+Fix? yes
+
+Free inodes count wrong for group #320 (8192, counted=3032).
+Fix? yes
+
+Directories count wrong for group #320 (0, counted=2204).
+Fix? yes
+
+Free inodes count wrong for group #336 (8192, counted=4054).
+Fix? yes
+
+Directories count wrong for group #336 (0, counted=269).
+Fix? yes
+
+Free inodes count wrong for group #352 (8192, counted=8133).
+Fix? yes
+
+Directories count wrong for group #352 (0, counted=24).
+Fix? yes
+
+Free inodes count wrong for group #384 (8192, counted=7008).
+Fix? yes
+
+Directories count wrong for group #384 (0, counted=334).
+Fix? yes
+
+Free inodes count wrong for group #400 (8192, counted=8185).
+Fix? yes
+
+Directories count wrong for group #400 (0, counted=3).
+Fix? yes
+
+Free inodes count wrong for group #416 (8192, counted=1017).
+Fix? yes
+
+Directories count wrong for group #416 (0, counted=213).
+Fix? yes
+
+Free inodes count wrong for group #417 (8192, counted=4474).
+Fix? yes
+
+Directories count wrong for group #417 (0, counted=267).
+Fix? yes
+
+Free inodes count wrong for group #432 (8192, counted=4769).
+Fix? yes
+
+Directories count wrong for group #432 (0, counted=32).
+Fix? yes
+
+Free inodes count wrong for group #448 (8192, counted=8159).
+Fix? yes
+
+Free inodes count wrong for group #464 (8192, counted=118).
+Fix? yes
+
+Directories count wrong for group #464 (0, counted=722).
+Fix? yes
+
+Free inodes count wrong for group #465 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #465 (0, counted=764).
+Fix? yes
+
+Free inodes count wrong for group #466 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #466 (0, counted=1955).
+Fix? yes
+
+Free inodes count wrong for group #467 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #467 (0, counted=995).
+Fix? yes
+
+Free inodes count wrong for group #468 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #468 (0, counted=1284).
+Fix? yes
+
+Free inodes count wrong for group #469 (8192, counted=4587).
+Fix? yes
+
+Directories count wrong for group #469 (0, counted=223).
+Fix? yes
+
+Free inodes count wrong for group #480 (8192, counted=6).
+Fix? yes
+
+Directories count wrong for group #480 (0, counted=653).
+Fix? yes
+
+Free inodes count wrong for group #481 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #481 (0, counted=919).
+Fix? yes
+
+Free inodes count wrong for group #482 (8192, counted=16).
+Fix? yes
+
+Directories count wrong for group #482 (0, counted=557).
+Fix? yes
+
+Free inodes count wrong for group #483 (8192, counted=2).
+Fix? yes
+
+Directories count wrong for group #483 (0, counted=692).
+Fix? yes
+
+Free inodes count wrong for group #484 (8192, counted=291).
+Fix? yes
+
+Directories count wrong for group #484 (0, counted=411).
+Fix? yes
+
+Free inodes count wrong for group #485 (8192, counted=3604).
+Fix? yes
+
+Directories count wrong for group #485 (0, counted=18).
+Fix? yes
+
+Free inodes count wrong for group #496 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #496 (0, counted=1459).
+Fix? yes
+
+Free inodes count wrong for group #497 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #497 (0, counted=1257).
+Fix? yes
+
+Free inodes count wrong for group #498 (8192, counted=94).
+Fix? yes
+
+Directories count wrong for group #498 (0, counted=1327).
+Fix? yes
+
+Free inodes count wrong for group #499 (8192, counted=177).
+Fix? yes
+
+Directories count wrong for group #499 (0, counted=2793).
+Fix? yes
+
+Free inodes count wrong for group #500 (8192, counted=196).
+Fix? yes
+
+Directories count wrong for group #500 (0, counted=360).
+Fix? yes
+
+Free inodes count wrong for group #501 (8192, counted=3465).
+Fix? yes
+
+Free inodes count wrong for group #512 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #512 (0, counted=1338).
+Fix? yes
+
+Free inodes count wrong for group #513 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #513 (0, counted=1435).
+Fix? yes
+
+Free inodes count wrong for group #514 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #514 (0, counted=959).
+Fix? yes
+
+Free inodes count wrong for group #515 (8192, counted=1).
+Fix? yes
+
+Directories count wrong for group #515 (0, counted=1295).
+Fix? yes
+
+Free inodes count wrong for group #516 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #516 (0, counted=727).
+Fix? yes
+
+Free inodes count wrong for group #517 (8192, counted=3828).
+Fix? yes
+
+Directories count wrong for group #517 (0, counted=81).
+Fix? yes
+
+Free inodes count wrong for group #518 (8192, counted=6842).
+Fix? yes
+
+Free inodes count wrong for group #528 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #528 (0, counted=809).
+Fix? yes
+
+Free inodes count wrong for group #529 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #529 (0, counted=1353).
+Fix? yes
+
+Free inodes count wrong for group #530 (8192, counted=8).
+Fix? yes
+
+Directories count wrong for group #530 (0, counted=1457).
+Fix? yes
+
+Free inodes count wrong for group #531 (8192, counted=360).
+Fix? yes
+
+Directories count wrong for group #531 (0, counted=1227).
+Fix? yes
+
+Free inodes count wrong for group #532 (8192, counted=798).
+Fix? yes
+
+Directories count wrong for group #532 (0, counted=705).
+Fix? yes
+
+Free inodes count wrong for group #533 (8192, counted=2325).
+Fix? yes
+
+Free inodes count wrong for group #544 (8192, counted=5507).
+Fix? yes
+
+Directories count wrong for group #544 (0, counted=315).
+Fix? yes
+
+Free inodes count wrong for group #545 (8192, counted=8128).
+Fix? yes
+
+Directories count wrong for group #545 (0, counted=64).
+Fix? yes
+
+Free inodes count wrong for group #548 (8192, counted=6454).
+Fix? yes
+
+Directories count wrong for group #548 (0, counted=127).
+Fix? yes
+
+Free inodes count wrong for group #549 (8192, counted=1).
+Fix? yes
+
+Free inodes count wrong for group #550 (8192, counted=0).
+Fix? yes
+
+Free inodes count wrong for group #551 (8192, counted=0).
+Fix? yes
+
+Free inodes count wrong for group #552 (8192, counted=0).
+Fix? yes
+
+Free inodes count wrong for group #553 (8192, counted=180).
+Fix? yes
+
+Free inodes count wrong for group #554 (8192, counted=7700).
+Fix? yes
+
+Free inodes count wrong for group #560 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #560 (0, counted=272).
+Fix? yes
+
+Free inodes count wrong for group #561 (8192, counted=35).
+Fix? yes
+
+Directories count wrong for group #561 (0, counted=589).
+Fix? yes
+
+Free inodes count wrong for group #562 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #562 (0, counted=627).
+Fix? yes
+
+Free inodes count wrong for group #563 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #563 (0, counted=47).
+Fix? yes
+
+Free inodes count wrong for group #564 (8192, counted=534).
+Fix? yes
+
+Directories count wrong for group #564 (0, counted=4).
+Fix? yes
+
+Free inodes count wrong for group #565 (8192, counted=6897).
+Fix? yes
+
+Free inodes count wrong for group #566 (8192, counted=6148).
+Fix? yes
+
+Free inodes count wrong for group #567 (8192, counted=6058).
+Fix? yes
+
+Free inodes count wrong for group #576 (8192, counted=13).
+Fix? yes
+
+Directories count wrong for group #576 (0, counted=206).
+Fix? yes
+
+Free inodes count wrong for group #577 (8192, counted=247).
+Fix? yes
+
+Directories count wrong for group #577 (0, counted=198).
+Fix? yes
+
+Free inodes count wrong for group #578 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #578 (0, counted=103).
+Fix? yes
+
+Free inodes count wrong for group #579 (8192, counted=1).
+Fix? yes
+
+Directories count wrong for group #579 (0, counted=135).
+Fix? yes
+
+Free inodes count wrong for group #580 (8192, counted=31).
+Fix? yes
+
+Directories count wrong for group #580 (0, counted=1275).
+Fix? yes
+
+Free inodes count wrong for group #581 (8192, counted=6907).
+Fix? yes
+
+Free inodes count wrong for group #582 (8192, counted=6144).
+Fix? yes
+
+Free inodes count wrong for group #583 (8192, counted=6421).
+Fix? yes
+
+Free inodes count wrong for group #592 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #592 (0, counted=1361).
+Fix? yes
+
+Free inodes count wrong for group #593 (8192, counted=83).
+Fix? yes
+
+Directories count wrong for group #593 (0, counted=386).
+Fix? yes
+
+Free inodes count wrong for group #594 (8192, counted=261).
+Fix? yes
+
+Directories count wrong for group #594 (0, counted=350).
+Fix? yes
+
+Free inodes count wrong for group #595 (8192, counted=63).
+Fix? yes
+
+Directories count wrong for group #595 (0, counted=1018).
+Fix? yes
+
+Free inodes count wrong for group #596 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #596 (0, counted=799).
+Fix? yes
+
+Free inodes count wrong for group #597 (8192, counted=3521).
+Fix? yes
+
+Free inodes count wrong for group #598 (8192, counted=6672).
+Fix? yes
+
+Free inodes count wrong for group #608 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #608 (0, counted=1203).
+Fix? yes
+
+Free inodes count wrong for group #609 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #609 (0, counted=1064).
+Fix? yes
+
+Free inodes count wrong for group #610 (8192, counted=536).
+Fix? yes
+
+Directories count wrong for group #610 (0, counted=628).
+Fix? yes
+
+Free inodes count wrong for group #611 (8192, counted=3).
+Fix? yes
+
+Directories count wrong for group #611 (0, counted=915).
+Fix? yes
+
+Free inodes count wrong for group #612 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #612 (0, counted=737).
+Fix? yes
+
+Free inodes count wrong for group #613 (8192, counted=4745).
+Fix? yes
+
+Directories count wrong for group #613 (0, counted=76).
+Fix? yes
+
+Free inodes count wrong for group #614 (8192, counted=6837).
+Fix? yes
+
+Free inodes count wrong for group #624 (8192, counted=19).
+Fix? yes
+
+Directories count wrong for group #624 (0, counted=1311).
+Fix? yes
+
+Free inodes count wrong for group #625 (8192, counted=2250).
+Fix? yes
+
+Directories count wrong for group #625 (0, counted=497).
+Fix? yes
+
+Free inodes count wrong for group #626 (8192, counted=180).
+Fix? yes
+
+Directories count wrong for group #626 (0, counted=1544).
+Fix? yes
+
+Free inodes count wrong for group #627 (8192, counted=2646).
+Fix? yes
+
+Directories count wrong for group #627 (0, counted=1069).
+Fix? yes
+
+Free inodes count wrong for group #628 (8192, counted=43).
+Fix? yes
+
+Directories count wrong for group #628 (0, counted=718).
+Fix? yes
+
+Free inodes count wrong for group #629 (8192, counted=2711).
+Fix? yes
+
+Free inodes count wrong for group #630 (8192, counted=4865).
+Fix? yes
+
+Free inodes count wrong for group #640 (8192, counted=2905).
+Fix? yes
+
+Directories count wrong for group #640 (0, counted=512).
+Fix? yes
+
+Free inodes count wrong for group #656 (8192, counted=38).
+Fix? yes
+
+Directories count wrong for group #656 (0, counted=921).
+Fix? yes
+
+Free inodes count wrong for group #657 (8192, counted=4).
+Fix? yes
+
+Directories count wrong for group #657 (0, counted=878).
+Fix? yes
+
+Free inodes count wrong for group #658 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #658 (0, counted=1205).
+Fix? yes
+
+Free inodes count wrong for group #659 (8192, counted=855).
+Fix? yes
+
+Directories count wrong for group #659 (0, counted=134).
+Fix? yes
+
+Free inodes count wrong for group #660 (8192, counted=637).
+Fix? yes
+
+Directories count wrong for group #660 (0, counted=777).
+Fix? yes
+
+Free inodes count wrong for group #661 (8192, counted=2184).
+Fix? yes
+
+Directories count wrong for group #661 (0, counted=242).
+Fix? yes
+
+Free inodes count wrong for group #672 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #672 (0, counted=953).
+Fix? yes
+
+Free inodes count wrong for group #673 (8192, counted=26).
+Fix? yes
+
+Directories count wrong for group #673 (0, counted=1352).
+Fix? yes
+
+Free inodes count wrong for group #674 (8192, counted=0).
+Fix? yes
+
+Directories count wrong for group #674 (0, counted=1013).
+Fix? yes
+
+Free inodes count wrong for group #675 (8192, counted=20).
+Fix? yes
+
+Directories count wrong for group #675 (0, counted=1104).
+Fix? yes
+
+Free inodes count wrong for group #676 (8192, counted=7644).
+Fix? yes
+
+Directories count wrong for group #676 (0, counted=127).
+Fix? yes
+
+Free inodes count wrong for group #688 (8192, counted=7474).
+Fix? yes
+
+Directories count wrong for group #688 (0, counted=46).
+Fix? yes
+
+Free inodes count wrong for group #704 (8192, counted=2377).
+Fix? yes
+
+Directories count wrong for group #704 (0, counted=553).
+Fix? yes
+
+Free inodes count wrong for group #768 (8192, counted=7520).
+Fix? yes
+
+Directories count wrong for group #768 (0, counted=49).
+Fix? yes
+
+Free inodes count wrong for group #784 (8192, counted=8191).
+Fix? yes
+
+Directories count wrong for group #784 (0, counted=1).
+Fix? yes
+
+Free inodes count wrong for group #800 (8192, counted=8191).
+Fix? yes
+
+Directories count wrong for group #800 (0, counted=1).
+Fix? yes
+
+Free inodes count wrong for group #816 (8192, counted=8191).
+Fix? yes
+
+Directories count wrong for group #816 (0, counted=1).
+Fix? yes
+
+Free inodes count wrong (7331829, counted=6619263).
+Fix? yes
+
+Padding at end of inode bitmap is not set. Fix? yes
+
+
+/dev/sda1: ***** FILE SYSTEM WAS MODIFIED *****
+/dev/sda1: 712577/7331840 files (0.5% non-contiguous), 17220089/29304832 blocks
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ 
